@@ -446,9 +446,39 @@
 
 <hr class="glow-line"/>
 
+  <!-- PROJECTS — INTERACTIVE TERMINAL -->
+<section id="projects">
+  <div class="section-label">01 / Projects</div>
+  <h2 class="section-title reveal">A Terminal of Acheivements</h2>
+  <p class="reveal" style="color:var(--muted);font-size:15px;margin-bottom:40px;max-width:560px">
+    Type a command below to explore - try <code style="color:var(--accent3)">ls</code>, <code style="color:var(--accent3)">cat cubesat</code>, or <code style="color:var(--accent3)">help</code>.
+  </p>
+  <div id="terminal-wrap" class="reveal">
+    <div class="terminal-bar">
+      <div class="t-dot red"></div>
+      <div class="t-dot yellow"></div>
+      <div class="t-dot green"></div>
+      <span class="t-title">siddharth@galaxy:~/projects</span>
+    </div>
+    <div class="terminal-body" id="termBody">
+      <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">ls projects/</span></div>
+      <div class="t-line t-out">cubesat &nbsp; robotics &nbsp; automation &nbsp; arduino &nbsp; web-bots &nbsp; games</div>
+      <div class="t-line" style="margin-top:10px"><span class="t-prompt">$</span> <span id="termTyping"></span><span class="t-cursor"></span></div>
+    </div>
+    <div style="padding: 0 24px 20px; border-top: 1px solid var(--border); padding-top:14px">
+      <div class="terminal-input-row">
+        <span class="t-prompt" style="font-family:var(--font-mono);font-size:13px">$</span>
+        <input id="termInput" type="text" placeholder="type a command..." autocomplete="off" spellcheck="false"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="glow-line"/>
+
 <!-- ABOUT -->
 <section id="about">
-  <div class="section-label">01 / About</div>
+  <div class="section-label">02 / About</div>
   <h2 class="section-title reveal">WHO I AM</h2>
   <div class="bento-grid">
     <div class="card reveal" style="grid-column:span 7">
@@ -505,7 +535,7 @@
 
 <!-- EXPERIENCE -->
 <section id="experience">
-  <div class="section-label">02 / Experience</div>
+  <div class="section-label">03 / Experience</div>
   <h2 class="section-title reveal">WHAT I'VE BUILT</h2>
  <div class="exp-item reveal">
     <div class="exp-meta">2025 – Present</div>
@@ -548,35 +578,7 @@
 
 <hr class="glow-line"/>
 
-<!-- PROJECTS — INTERACTIVE TERMINAL -->
-<section id="projects">
-  <div class="section-label">03 / Projects</div>
-  <h2 class="section-title reveal">A Terminal of Acheivements</h2>
-  <p class="reveal" style="color:var(--muted);font-size:15px;margin-bottom:40px;max-width:560px">
-    Type a command below to explore - try <code style="color:var(--accent3)">ls</code>, <code style="color:var(--accent3)">cat cubesat</code>, or <code style="color:var(--accent3)">help</code>.
-  </p>
-  <div id="terminal-wrap" class="reveal">
-    <div class="terminal-bar">
-      <div class="t-dot red"></div>
-      <div class="t-dot yellow"></div>
-      <div class="t-dot green"></div>
-      <span class="t-title">siddharth@galaxy:~/projects</span>
-    </div>
-    <div class="terminal-body" id="termBody">
-      <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">ls projects/</span></div>
-      <div class="t-line t-out">cubesat &nbsp; robotics &nbsp; automation &nbsp; arduino &nbsp; web-bots &nbsp; games</div>
-      <div class="t-line" style="margin-top:10px"><span class="t-prompt">$</span> <span id="termTyping"></span><span class="t-cursor"></span></div>
-    </div>
-    <div style="padding: 0 24px 20px; border-top: 1px solid var(--border); padding-top:14px">
-      <div class="terminal-input-row">
-        <span class="t-prompt" style="font-family:var(--font-mono);font-size:13px">$</span>
-        <input id="termInput" type="text" placeholder="type a command..." autocomplete="off" spellcheck="false"/>
-      </div>
-    </div>
-  </div>
-</section>
 
-<hr class="glow-line"/>
 
 <!-- ACTIVITIES -->
 <section id="activities">
